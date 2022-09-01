@@ -1,6 +1,7 @@
 #headerBar,
 #header-right,
-#headerContent {
+#headerContent,
+#imageRow {
     display: flex;
     align-content: center;
     justify-content: space-between;
@@ -8,4 +9,11 @@
 
 #header-right {
     gap: 2em;
+}
+
+.imageOutline {
+    height: 10rem;
+    width: 10rem;
+    border: 0.25rem solid #3882F6;
+    border-radius: 10px;
 }
