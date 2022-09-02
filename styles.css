@@ -28,11 +28,13 @@ body {
 
 .introBlock,
 #informationBlock,
-#quoteBlock {
+#quoteBlock,
+#signUpPanel {
     padding-bottom: 5rem;
 }
 
-#quoteBlock {
+#quoteBlock,
+#signUpPanel {
     padding-top: 5rem;
 }
 
@@ -41,7 +43,8 @@ body {
 }
 
 #header-left,
-#citation {
+#citation,
+#callToAction {
     font-size: 24px;
 }
 
@@ -122,6 +125,28 @@ body {
     text-align: center;
     border-radius: 5px;
     font-size: 18px;
+    padding-inline: 1rem;
+}
+
+#signUpPanel {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #3882F6;
+    margin: 5rem;
+    padding: 1rem;
+    color: #E5E7EB;
+    border-radius: 10px;
+}
+
+#callToAction,
+.signUp {
+    font-weight: bold;
+}
+
+#signUp-right {
+    border: 1px solid #E5E7EB;
+    border-radius: 5px;
 }
 
 .footer {
