@@ -10,22 +10,48 @@ body {
 .introBlock,
 .footer {
     background-color: #1F2937;
-    font-size: 18px;
-    color: #E5E7EB;
-    padding-inline: 5rem;
-    
+    color: #E5E7EB;    
 }
 
-.introBlock {
+.introBlock,
+.footer,
+#informationBlock,
+#quoteBlock {
+    padding-inline: 5rem;
+}
+
+.introBlock,
+.footer,
+.imageDescription {
+    font-size: 18px;
+}
+
+.introBlock,
+#informationBlock,
+#quoteBlock {
     padding-bottom: 5rem;
+}
+
+#quoteBlock {
+    padding-top: 5rem;
 }
 
 #heroText {
     font-size: 48px;
 }
 
-#header-left {
+#header-left,
+#citation {
     font-size: 24px;
+}
+
+#quote {
+    text-align: left;
+}
+
+#citation {
+    font-weight: bold;
+    text-align: right;
 }
 
 #heroText,
@@ -36,12 +62,30 @@ body {
 
 #headerBar,
 #header-right,
-#headerContent,
-#imageRow {
+#headerContent {
     display: flex;
     align-content: center;
     justify-content: space-between;
     align-items: center;
+}
+
+.info {
+    padding-block: 1rem;
+    text-align: center;
+}
+
+.imageRow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#imageTile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 #header-right {
@@ -53,6 +97,21 @@ body {
     width: 10rem;
     border: 0.25rem solid #3882F6;
     border-radius: 10px;
+}
+
+#quoteBlock {
+    background-color: #E5E7EB;
+}
+
+#quoteSpace {
+    display: flex;
+    flex-direction: column;
+}
+
+#quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
 }
 
 .signUp {
