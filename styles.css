@@ -12,7 +12,12 @@ body {
     background-color: #1F2937;
     font-size: 18px;
     color: #E5E7EB;
-    padding: 5rem;
+    padding-inline: 5rem;
+    
+}
+
+.introBlock {
+    padding-bottom: 5rem;
 }
 
 #heroText {
@@ -57,4 +62,10 @@ body {
     padding: 0.33rem 0.99rem;
     text-align: center;
     border-radius: 5px;
+    font-size: 18px;
+}
+
+.footer {
+    text-align: center;
+    padding-block: 0.5rem;
 }
